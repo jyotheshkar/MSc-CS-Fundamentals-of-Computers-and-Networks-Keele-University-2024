@@ -1,0 +1,58 @@
+{
+  "module": "CSC-40064",
+  "academic_year": "2023/24",
+  "submission_date_on_cover": "2024-01-16",
+  "document_kind": "student-authored submission, not a university assessment brief",
+  "source_documents": [
+    {
+      "neutral_label": "Original editable submission (private source)",
+      "format": "odt",
+      "sha256": "59e380290cf39e8de7dc4d1fb4ad08c78be27b9ace6e06bc99b7e151d3b6bc7e"
+    },
+    {
+      "neutral_label": "Original PDF submission (private source)",
+      "format": "pdf",
+      "sha256": "9f6a1e61b40ca3a4d01733d1b21fecd1befd1c9351d39f136fe789c569870cd1",
+      "pages": 15
+    }
+  ],
+  "source_filename_note": "Private archive filenames use CSC-20043; the cover identifies CSC-40064-2023-SEM1-A. Private filenames and identifiers are omitted here.",
+  "public_derivative": {
+    "file": "student-submission-redacted.odt",
+    "bytes": 240841,
+    "sha256": "b13d84dbd54d2ce681b31559be3e5599b0d1a1c93207d0086cba3f30913e2b57"
+  },
+  "redaction_date": "2026-11-14",
+  "redactions": [
+    "Cover student name, student identifier and module-leader name replaced with neutral labels",
+    "Document creator/editor metadata replaced with neutral provenance",
+    "View settings removed with manifest entry"
+  ],
+  "preserved": [
+    "Every academic body element outside the three cover paragraphs",
+    "All six original PNGs byte-for-byte",
+    "All 30 original MathML objects byte-for-byte",
+    "Original styles.xml byte-for-byte"
+  ],
+  "validation": {
+    "zip_crc": "passed",
+    "xml_parsing": "all XML members passed",
+    "identifier_scan": "original cover values absent from every XML member",
+    "email_scan": "no email strings in XML",
+    "academic_body_comparison": "all non-cover body elements unchanged",
+    "embedded_resource_hash_comparison": "all six images and 30 math objects unchanged",
+    "local_resource_references": "resolved",
+    "source_untouched": "SHA-256 unchanged"
+  },
+  "visual_review": {
+    "original_pdf": "All 15 pages rendered and inspected; final page blank",
+    "embedded_images": "All six PNGs inspected, no personal identifiers visible",
+    "redacted_odt": "Office renderer unavailable; structure and content checked, final Office layout not rendered"
+  },
+  "limitations": [
+    "Historical answers retain their original mistakes; see ../COURSEWORK.md",
+    "Original assessment brief and marking feedback not located",
+    "The 88% is the verified module mark, not an individual-answer or 2026 reference-code mark",
+    "No raw original PDF, transcript, private filenames or local paths included"
+  ]
+}

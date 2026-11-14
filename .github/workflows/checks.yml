@@ -1,0 +1,23 @@
+name: Reference calculations
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  offline-reference-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run offline unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Run worked demonstration
+        run: python reference_calculations.py
